@@ -1,2 +1,2 @@
-public class weaponSupplier {
+public interface weaponSupplier {
 }
