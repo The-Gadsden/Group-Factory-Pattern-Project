@@ -6,12 +6,15 @@ public abstract class TankFactory{
     public Tank orderTank(final String type) {
         Tank tank;
         tank = createTank(type);
-        /*tank.prepare();
-        tank.bake();
-        tank.cut();
-        tank.box();*/
+        tank.prepareParts();
+        tank.assemble();
+        tank.fitTreads();
+        tank.greaseTreads();
+        System.out.println("Tank Ready!");
         return tank;
     }
     abstract Tank createTank(String type);
+
+
 }
 
