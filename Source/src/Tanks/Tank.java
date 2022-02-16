@@ -12,10 +12,15 @@ public abstract class Tank {
         System.out.println("Parts Prepared!");
     }
 
-    public void assemble(){}
-    public void fitTreads(){}
+    public void assemble(){
+
+    }
+    public void fitTreads(){
+
+    }
+
     public void greaseTreads(){
-        System.out.println("Greasing treads...\n ");
+        System.out.println("Greasing treads...\nTreads greased!");
     }
 
     public String getName(){
